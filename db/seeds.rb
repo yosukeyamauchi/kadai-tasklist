@@ -2,7 +2,7 @@
   User.create(
     name: 'てすとゆーざー' + number.to_s,
     email: 'test_user' + number.to_s + '@test.com',
-    password_digest: 'test'
+    password: 'test'
   )
 end
 
